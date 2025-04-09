@@ -5,7 +5,7 @@ class MedicalDatabase {
         this.db = new Database(dbPath);
         this.createTables();
     }
-
+    //create table
     createTables() {
         this.db.exec(`
       CREATE TABLE IF NOT EXISTS Procedures (
